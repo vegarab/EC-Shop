@@ -1,9 +1,6 @@
 <h1><img src="https://i.imgur.com/NaEWdZ3.png" width="100" />&nbsp; &nbsp; E.C.
 Shop :apple: :bacon: :hamburger: :stuffed_flatbread:</h1>
 
-<img src="https://gitlab.stud.iie.ntnu.no/tdt4140-2018/64/badges/master/build.svg">
-<img src="https://gitlab.stud.iie.ntnu.no/tdt4140-2018/64/badges/master/coverage.svg">
-
 This is a school project developed associated with the subject TDT4140 at NTNU.
 
 E.C. Shop is a system for tracking customers in a store, similarly to systems
@@ -98,7 +95,7 @@ parts of the system.
 
 The `web.server` module uses its own instance of `app.core` to pass and receive
 data from customers. An external customer application could interact with the
-relevant data through this REST API. Documentation is found [here.](https://gitlab.stud.iie.ntnu.no/tdt4140-2018/64/blob/master/tdt4140-gr1864/web.server/README.md)
+relevant data through this REST API. Documentation is found [here.](https://github.com/vegarab/EC-Shop/blob/master/tdt4140-gr1864/web.server/README.md)
 
 
 The `app` module is responsible for starting and stopping the system cleanly.
